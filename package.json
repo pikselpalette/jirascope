@@ -1,0 +1,32 @@
+{
+  "name": "jirascope",
+  "description": "tools for making sense of jira dependency graphs",
+  "homepage": "https://github.com/krisb/jirascope",
+  "version": "0.1.0",
+  "main": "index",
+  "engines": {
+    "node": ">=6.10.x"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^8.6.0"
+  },
+  "bin": {},
+  "scripts": {
+    "test": "NODE_ENV=test standard && lab"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krisb/jirascope.git"
+  },
+  "keywords": [
+    "jira"
+  ],
+  "author": "Kris Brown <kris@kris.me.uk>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/krisb/jirascope/raw/master/LICENSE"
+    }
+  ]
+}
