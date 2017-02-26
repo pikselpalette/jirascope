@@ -20,7 +20,9 @@
     "jsdoc": "^3.4.3",
     "standard": "^8.6.0"
   },
-  "bin": {},
+  "bin": {
+    "jirascope": "./bin/jirascope"
+  },
   "scripts": {
     "doc": "jsdoc -c jsdoc.conf.json -r lib -p -R README.md -P package.json --verbose --pedantic",
     "test": "NODE_ENV=test standard && ava",
