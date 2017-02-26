@@ -33,10 +33,5 @@
     "jira"
   ],
   "author": "Kris Brown <kris@kris.me.uk>",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://github.com/krisb/jirascope/raw/master/LICENSE"
-    }
-  ]
+  "license": "MIT"
 }
