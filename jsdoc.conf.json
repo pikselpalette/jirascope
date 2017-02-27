@@ -13,7 +13,10 @@
     "recurse": true,
     "tutorials": "doc/tutorials"
   },
-  "plugins": ["plugins/markdown"],
+  "plugins": [
+    "plugins/markdown",
+    "node_modules/jsdoc-strip-async-await"
+  ],
   "templates": {
     "logoFile": "",
     "cleverLinks": false,
