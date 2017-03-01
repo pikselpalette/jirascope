@@ -22,6 +22,7 @@
     "ink-docstrap": "^1.3.0",
     "jsdoc": "^3.4.3",
     "jsdoc-strip-async-await": "^0.1.0",
+    "nyc": "^10.1.2",
     "standard": "^8.6.0"
   },
   "bin": {
@@ -29,7 +30,9 @@
   },
   "scripts": {
     "doc": "jsdoc -c jsdoc.conf.json -r lib -p -R README.md -P package.json --verbose --pedantic",
-    "test": "NODE_ENV=test standard && ava",
+    "test": "NODE_ENV=test standard && nyc ava",
+    "report": "nyc report --reporter=html",
+    "report-open": "nyc report --reporter=html && open coverage/index.html",
     "prepublish": "standard"
   },
   "repository": {
