@@ -9,6 +9,5 @@
   * validate args
   * move to https://github.com/mattallty/Caporal.js
 * Visualisation of the graph data to find (https://en.wikipedia.org/wiki/Graph_theory):
-  * Check for done issue with non-done dependencies
   * Cycle / Loop - these need fixing (see http://stackoverflow.com/questions/261573/best-algorithm-for-detecting-cycles-in-a-directed-graph)
   * Least cost planning - roll up of efforts etc
