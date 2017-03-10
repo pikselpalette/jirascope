@@ -4,7 +4,7 @@
   * ancestors and descendants
   * all
   * distance, depth
-  * stop conditions (e.g. done tickets)
+  * support for epics
 * better command line handling:
   * validate args
   * move to https://github.com/mattallty/Caporal.js
