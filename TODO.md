@@ -4,7 +4,6 @@
   * ancestors and descendants
   * all
   * distance, depth
-  * support for epics
 * better command line handling:
   * validate args
   * move to https://github.com/mattallty/Caporal.js
