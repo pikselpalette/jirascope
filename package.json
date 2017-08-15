@@ -2,7 +2,7 @@
   "name": "jirascope",
   "description": "tools for making sense of jira dependency graphs",
   "homepage": "https://github.com/krisb/jirascope",
-  "version": "0.9.8",
+  "version": "0.9.9",
   "main": "index",
   "engines": {
     "node": ">=7.6.x"
