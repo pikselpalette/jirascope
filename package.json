@@ -36,7 +36,8 @@
     "test": "NODE_ENV=test standard && nyc ava",
     "report": "nyc report --reporter=html",
     "report-open": "nyc report --reporter=html && open coverage/index.html",
-    "prepublish": "standard"
+    "prepublish": "standard",
+    "fix": "standard --fix"
   },
   "repository": {
     "type": "git",
