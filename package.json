@@ -1,7 +1,7 @@
 {
   "name": "jirascope",
   "description": "tools for making sense of jira dependency graphs",
-  "homepage": "https://github.com/krisb/jirascope",
+  "homepage": "https://github.com/pikselpalette/jirascope.git",
   "version": "1.0.0",
   "main": "index",
   "engines": {
@@ -41,7 +41,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/krisb/jirascope.git"
+    "url": "git+https://github.com/pikselpalette/jirascope.git"
   },
   "keywords": [
     "jira"
