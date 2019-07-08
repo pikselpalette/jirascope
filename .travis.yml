@@ -1,7 +1,15 @@
 language: node_js
 node_js:
-  - "7.6.0"
+- 7.6.0
 install:
-  - npm install
+- npm install
 script:
-  - npm test
+- npm test
+deploy:
+  provider: npm
+  email: jack.butler@piksel.com
+  api_key:
+    secure: WckVWtBABp3TvGu2xBruPKTmCJta3QEL06ibQ92y2Y9u61UKy5IXQmM+P8Ei3AJRDF6POb55L6JDoQ0IbMO4yr1sybuzpIkrZOf/tqOcv/ZXYSw/cBzwZzT1Pl0k2pcabh8Zem2Xd5+f3b+q3gMI55zxn6xLH7IPCTwQtx155HZHjbfd0zlpDkOTzOZC8T7En1kmbMuevPxdrxBHXNDDpNnbNlya3dYXcUkkfULoHmm0j/VktBgCiXDRobYWM/JleLXMLHTMq6GxzxVc2LSyK4Onrn4y9Cm+ojMXlaAV4MlyCj8F/nm0ftSG6fdzKE1ocXO+QhTVm0lwyZmXKiLkziCoYRZejtmOMGM69gMDmHEn+YFk/Uz5Wet2u3tEh4vwAEjIehWfEDq+hexcdmR8rVOANPJk1qH+UnEN4eVXrYazs0H/rIbRZEx21kcDhQYz2lNuFRF5H6pao8ewBq82Lu50VzaCbNN68GJDFy633wldBII9fSaBi+xVMcLb97sHSXkIfRkW07EwAXJzILQzVrlHXvuEmeJpjMCgpf+Ygkh0Bf+beDXq/pEwukBCQ66a+tiP8IuQH4S5TH5lCK1HGjk8tUzJbI1gbv/LzfjxEYnlml678MJnRxdXss3Kl0FHyJoOyuE07Z4Auuv6cjPci++ZDTK38THXlgl89qSEuqM=
+  on:
+    tags: true
+    repo: pikselpalette/jirascope
