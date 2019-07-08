@@ -15,5 +15,5 @@ test('cleanup calls methods on datastore', async t => {
   const jiraScope = new JiraScope({}, fakeDataStore, {})
   await jiraScope.cleanup()
 
-  t.is(fakeDataStore.deleteData.calledThrice, true)
+  t.true(fakeDataStore.deleteData.calledThrice)
 })
