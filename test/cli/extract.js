@@ -38,7 +38,7 @@ test('Should extract issues, tidy and then store them', async t => {
   const extract = new Extract(exampleConfig, jiraScope)
 
   await extract.run()
-
+  t.plan(4)
   // Fetch()
   t.truthy(jiraScope.issues)
   t.true(issueStub.called)

@@ -19,6 +19,8 @@ npm install -g jirascope
 
 ### Testing
 
+Testing is done using [ava](https://github.com/avajs/ava) which allows for faster testing with concurrent tests.
+
 ```bash
 npm test -- --watch
 ```
