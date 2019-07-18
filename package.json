@@ -26,6 +26,7 @@
     "jsdoc": "^3.4.3",
     "jsdoc-strip-async-await": "^0.1.0",
     "nyc": "^10.1.2",
+    "sinon": "^7.3.2",
     "standard": "^8.6.0"
   },
   "bin": {
