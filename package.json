@@ -34,11 +34,9 @@
   },
   "scripts": {
     "doc": "jsdoc -c jsdoc.conf.json -r lib -p -R README.md -P package.json --verbose --pedantic",
-    "test": "NODE_ENV=test standard && nyc ava",
+    "test": "NODE_ENV=test nyc ava",
     "report": "nyc report --reporter=html",
-    "report-open": "nyc report --reporter=html && open coverage/index.html",
-    "prepublish": "standard",
-    "fix": "standard --fix"
+    "report-open": "nyc report --reporter=html && open coverage/index.html"
   },
   "repository": {
     "type": "git",
