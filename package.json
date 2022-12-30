@@ -21,7 +21,7 @@
     "update-notifier": "^2.1.0"
   },
   "devDependencies": {
-    "ava": "^0.18.2",
+    "ava": "^5.1.0",
     "ink-docstrap": "^1.3.0",
     "jsdoc": "^3.6.3",
     "jsdoc-strip-async-await": "^0.1.0",
